@@ -38,7 +38,6 @@ app.post('/images', (req, res) => {
 
 })
 
-
 app.get('/', async (req, res) => {
     try {
         const data = await clientdb.scan({ TableName: "Locations" }).promise()
