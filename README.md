@@ -1,7 +1,7 @@
 # Depoly Node.js to AWS
 
 
-![Download DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html)
+[Download DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html)
 
 Run the below command to start DynamoDB locally:
 
