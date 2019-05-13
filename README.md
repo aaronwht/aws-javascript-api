@@ -7,10 +7,10 @@ The code in this repository is configured to deploy to AWS Elastic Beanstalk usi
 [Download AWS DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html) if you don't already have it and copy the deploy files into another folder, I suggest `/dynamodb`.
 Run the below command from that folder's location to start DynamoDB locally - this will run on port `8080`
 `java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb`
-![Google Developer Key](https://www.aaronwht.com/images/dynamodb-locally.png)
+![Google Developer Key](https://www.aaronwht.com/images/elastic-beanstalk-build/elastic-beanstalk-build/elastic-beanstalk-build/elastic-beanstalk-build/dynamodb-locally.png)
 
 Create an `.env` file in the root of your project.  As a convention, `.env` files store environment variables and are not checked into code repositiories as they often include sensative, or environment-related, information.  This is done by including the `.env` file in your `.gitignore` file, as done in this project.
-![Env Variables](https://www.aaronwht.com/images/aws-javascript-api-env-variables.png)
+![Env Variables](https://www.aaronwht.com/images/elastic-beanstalk-build/aws-javascript-api-env-variables.png)
 
 To run this Node.js applicaiton locally you'll need the below things:
 - A Google Developer API Key
