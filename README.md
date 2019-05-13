@@ -19,9 +19,7 @@ To run this Node.js applicaiton locally you'll need the below things:
 - A Google Developer API Key
 - A Google Custom Search Engine Id (which requires a Google Project)
 
-Obtain a free Google Developer API Key by visiting https://developers.google.com/custom-search/v1/overview
-Click the `GET A KEY` button.
-![Google Developer Key](https://www.aaronwht.com/images/elastic-beanstalk-build/google-developer-key.png)
+Obtain a Google Developer API Key by visiting https://console.cloud.google.com/apis/credentials.
 
 If you don't already have a Google Project setup, visit https://console.developers.google.com/cloud-resource-manager to create one.
 
