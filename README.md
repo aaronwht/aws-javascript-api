@@ -36,7 +36,7 @@ Click the `Add` button, then enter `www.google.com` as the `Sites to search` and
 
 Toggle the `Image search` and `SafeSearch` options along with the `Search the entire web` option as displayed below.
 
-![Google Custom Search Engine](https://www.aaronwht.com/images/elastic-beanstalk-build/google-image-search-01.png)
+![Google Custom Search Engine](https://www.aaronwht.com/images/elastic-beanstalk-build/google-image-search.png)
  At the bottom of the screen enter `ImageObject` under the `Restrict Pages using Schema.org Types` header the click the `Update` button.  Now scroll up and copy your `Search engine ID` - which I have blurred out
 
 Add the variables pictured below to your `.env` file:
