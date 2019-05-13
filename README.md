@@ -7,7 +7,6 @@ The code in this repository is configured to deploy to AWS Elastic Beanstalk usi
 [Download AWS DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html) if you don't already have it and copy the deploy files into another folder, I suggest `/dynamodb`.
 Run the below command from that folder's location to start DynamoDB locally - this will run on port 8080.
 
-
 `java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb`
 
 
