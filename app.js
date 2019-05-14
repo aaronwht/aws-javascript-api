@@ -41,7 +41,7 @@ app.post('/images', (req, res) => {
 app.get('/', async (req, res) => {
     try {
         const data = await clientdb.scan({ TableName: "Locations" }).promise()
-        return res.json({ status: 'success', v: 2, locations: data.Items })
+        return res.json({ status: 'success', v: 1, locations: data.Items })
     } catch (err) {
         return res.json({ status: 'error', message: err.message })
     }
