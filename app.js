@@ -29,7 +29,7 @@ app.post('/images', (req, res) => {
         const GoogleImagesClient = new GoogleImages(process.env.GOOGLE_CSE, process.env.GOOGLE_API_KEY)
         const page = req.body.page ? req.body.page : 1
 
-        GoogleImagesClient.search(req.body.location, { page: page, size: 'medium', defaultToImageSearch: 'true' }).then(images => {
+        GoogleImagesClient.search(req.body.location, { page: page, size: 'xxlarge', defaultToImageSearch: 'true' }).then(images => {
             return res.json({ status: 'success', images })
         })
     } catch (err) {
