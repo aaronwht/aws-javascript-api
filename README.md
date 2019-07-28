@@ -1,7 +1,9 @@
-# Depoly Node.js to AWS
+# Deploy Node.js to AWS
 
 ### Overview
-The code in this repository is configured to deploy to AWS Elastic Beanstalk using AWS CodePipeline. The coorelating client-side React code may be found at https://github.com/aaronwht/aws-javascript.
+The code in this repository is configured to deploy to AWS Elastic Beanstalk using AWS CodePipeline. The correlating client-side React code may be found at https://github.com/aaronwht/aws-javascript.  
+
+[Contact me](https://www.aaronwht.com/contact-me) if you run into problems using this repo or tutorial.  
 
 ### Running locally
 [Download AWS DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.DownloadingAndRunning.html) if you don't already have it and copy the deploy files into another folder, I suggest `/dynamodb`.
@@ -12,10 +14,10 @@ Run the below command from that folder's location to start DynamoDB locally - th
 
 ![Google Developer Key](https://www.aaronwht.com/images/elastic-beanstalk-build/dynamodb-locally.png)
 
-Create an `.env` file in the root of your project.  As a convention, `.env` files store environment variables and are not checked into code repositiories as they often include sensative, or environment-related, information.  This is done by including the `.env` file in your `.gitignore` file, as done in this project.
+Create an `.env` file in the root of your project.  As a convention, `.env` files store environment variables and are not checked into code repositories as they often include sensitive, or environment-related, information.  This is done by including the `.env` file in your `.gitignore` file, as done in this project.
 ![Env Variables](https://www.aaronwht.com/images/elastic-beanstalk-build/aws-javascript-api-env-variables.png)
 
-To run this Node.js applicaiton locally you'll need the below things:
+To run this Node.js application locally you'll need the below things:
 - A Google Developer API Key
 - A Google Custom Search Engine Id (which requires a Google Project)
 
