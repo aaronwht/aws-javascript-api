@@ -25,7 +25,6 @@ Obtain a Google Developer API Key by visiting https://console.cloud.google.com/a
 
 If you don't already have a Google Project setup, visit https://console.developers.google.com/cloud-resource-manager to create one.
 
-![Create Google Project](https://www.aaronwht.com/images/elastic-beanstalk-build/google-create-project.png)
 ![Save Google Project](https://www.aaronwht.com/images/elastic-beanstalk-build/google-save-project.png)
 
 This may take a minute or two and you may have to reload the page for it to display your new project.
