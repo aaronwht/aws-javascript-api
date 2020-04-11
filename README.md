@@ -46,6 +46,4 @@ Add the variables pictured below to your `.env` file:
 `GOOGLE_API_KEY` use your Google API Developer Key
 `GOOGLE_CSE` use your Google Custom search engine value
 
-Running `node app` should run your project.  
-
-If this helped you consider making a one time $1-$3 donation to support me at [Patreon](https://www.patreon.com/aaronwht)
+Running `node app` should run your project.
